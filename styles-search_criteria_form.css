@@ -1,0 +1,100 @@
+body {font-family: Arial;}
+
+/* Table Settings */
+html {
+  width: auto;
+}
+table {
+	width: 1000px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	position: left;
+}
+td {
+	width: auto;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	position: left;
+}
+th {
+	width: auto;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background-color: #c3e6e5;
+}
+/* Table with no borders */
+table.table1 {
+	width: 400px;
+	border-collapse: collapse;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	position: left;
+	border-top: 0px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	border-right: 0px solid #ffffff;
+	border-bottom: 0px solid #ffffff;
+}
+.cell_noborder {
+	border: none;
+}
+.mycell {
+	padding: 8px 5px 5px 5px;
+}
+.mycell2 {
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+}
+.mycell3 {
+	position: left;
+}
+.radiobuttons-lastname-all {
+	font-size: 120%;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid #f0ccd9;
+	border-width: 1px 1px 1px 1px;
+	background-color: #fdf7fa;
+}
+.radiobuttons-lastname {
+	font-size: 120%;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid #d1f7df;
+	background-color: #f1faf5;
+	border-width: 1px 1px 1px 1px;
+}
+h3 {
+	color: black;
+	text-align: left;
+}
+h4 {
+	color: black;
+	text-align: center;
+}
+/* This adjusts the margins created by Moodle so that more info fits in the cell */
+.col-md-9 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 100%;
+	max-width: 100%;
+}

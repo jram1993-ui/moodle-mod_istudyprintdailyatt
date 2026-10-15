@@ -1,0 +1,283 @@
+body {
+	font-family: Arial;
+	print-color-adjust:exact;
+}
+
+/* Table Settings */
+html {
+  margin:0 auto;
+  width: 675px;
+}
+table {
+  margin:0 auto;
+  width: 665px;
+  font-size: 70%;
+  border-collapse: collapse;
+  border: 2px solid #000000;
+  text-align: left;
+  table-layout: fixed;
+}
+th {
+	border: 0.5px solid #000000;
+	background-color: #DCDCDC;
+	text-align: center;
+}
+td {
+	border: 0.5px solid #000000;
+}
+.cell_student {
+	line-height: 10px;
+}
+.cell_student_bold {
+	line-height: 10px;
+	font-weight: bold;
+}
+.mycell {
+	background-color: #E5D7E0;
+	font-size: 100%;
+	border: 0.5px solid #000000;
+	border-left: 2px solid #000000;
+}
+.mycell2 {
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+.mycellnum {
+  text-align: center;
+}
+.mycell3 {
+   font-size: 90%;
+}
+div {
+	font-family: arial narrow;
+	font-size: 100%;
+	padding: 0px 0px 0px 0px;
+	/* margin: -5px -8px -10px -10px; */
+	margin: 0px -8px 7px -10px;
+	transform: rotate(-90deg);
+	-webkit-transform:  rotate(-90deg);
+}
+.cellborderleft {
+	border-left: 2px solid #000000;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.cellborderleft_and_right {
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.cellborderleft_red {
+	border-left: 2px solid #000000;
+	text-decoration: bold;
+	background-color: #F8E6E6;
+}
+.cellborderleft_gray {
+	border-left: 2px solid #000000;
+	text-decoration: bold;
+	background-color: #FCFAFA;
+}
+.cell_is_red {
+	text-decoration: bold;
+	background-color: #F8E6E6;
+}
+.cellborderleft_small {
+	font-size: 80%;
+	border-left: 2px solid #000000;
+}
+.cellbordernotleft_small {
+	font-size: 80%;
+}
+.cellborderright {
+	border-right: 2px solid #000000;
+}
+.cellbordersides {
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+.cellborderbottom {
+	border-bottom: 2px solid #000000;
+}
+.cellborderbottom_small {
+	font-size: 70%;
+	border-bottom: 2px solid #000000;
+}
+.cellbordernotright {
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+.cellbordernotright_small {
+	font-size: 70%;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+.cellbordernotleft {
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+.cellborderall {
+	border: 2px solid #000000;
+}
+
+/* For totals of attendance */
+.att_cellborderleft {
+	font-weight: bold;
+	border-left: 2px solid #000000;
+	text-align: right;
+}
+.att_text_right {
+	font-size: 95%;
+	text-align: right;
+}
+.cells_row_two {
+	font-size: 90%;
+	font-style: italic;
+}
+.fontfordates {
+	background-color: #E5D7E0;
+	line-height: 25px;
+}
+.leftborder_dark {
+	column-width: 20px;
+	border-left: 2px solid #000000;
+	padding: 0px;
+}
+.cell_width {
+	column-width: 20px;
+	padding: 0px;
+}
+.cut_text_studentid {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: cut;
+	white-space: nowrap;
+	line-height: 1;
+}
+.rotate_cell {
+	font-size: 80%;
+	font-family: arial narrow;
+	column-width: 18px;
+	line-height: 90%;
+	padding: 0px 0px 0px 0px;
+	margin: -10px -10px -10px -10px;
+	transform: rotate(-90deg);
+	-webkit-transform:  rotate(-90deg);
+}
+.cut_text_student {
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: nowrap;
+	line-height: 1;
+}
+.cut_text_course {
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 120px;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: nowrap;
+	line-height: 1;
+}
+.cut_text_advisor {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 80px;
+	overflow: hidden;
+	text-overflow: cut;
+	white-space: nowrap;
+	line-height: 1;
+}
+.cut_text_notes {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: cut;
+	white-space: nowrap;
+	line-height: 1;
+}
+table.table2 {
+  margin:0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+  position: relative;
+  left: 30px;
+}
+table.table2 th {
+  border: 1px solid #000000;
+}
+table.table2 td {
+  border: 1px solid #000000;
+}
+table.table3 {
+  margin:0 auto;
+  font-size: 70%;
+  border: 1px solid #000000;
+  width: 100%;
+}
+table.table3 th {
+  border: 1px solid #000000;
+}
+table.table3 td {
+  border: 1px solid #000000;
+}
+table.table4 {
+  margin:0 auto;
+  font-size: 95%;
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  text-align: left;
+}
+table.table4 td {
+	border-bottom:2pt solid white;
+}
+h1 {
+  font-size: 90%;
+  text-align: center;
+  margin-bottom: 0px;
+  text-decoration: bold;
+}
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 60%;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+h3 {
+  font-size: 70%;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 4px;
+}
+h4 {
+  font-size: 75%;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 4px;
+}
